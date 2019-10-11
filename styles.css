@@ -1,0 +1,53 @@
+body{
+    background: rgb(255,255,255) ;
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(125,125,125,1) 100%) no-repeat center center fixed;
+    margin: 0;
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-size: 20px;
+  }
+  a{
+    color: black
+  }
+
+   .box{
+     position: relative;
+     margin: auto;
+     display: block;
+     margin-top: 7%;
+     margin-bottom: 10%;
+     width: 1280px;
+     height: 720px;
+     background: none;
+    }
+
+    .head{
+        position: absolute;
+        top: 103px;
+        right: 40px;
+        height: 60px;
+        width: 500px;
+        background: white;
+      }
+
+    .headn{
+        position: absolute;
+        top: 0px;
+        right: 40px;
+        height: 60px;
+        width: 500px;
+        background: none;
+        font-size: 48px;
+      }
+    
+
+    .text{
+        font-size: 48px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .but{
+        font-size: 48px;
+    }

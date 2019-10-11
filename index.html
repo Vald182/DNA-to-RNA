@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <LINK href="styles.css" rel="stylesheet" type="text/css">
+        <title>DNA to RNA</title>
+        <script src ="converter.js" defer></script>
+    
+    </head>
+
+    <body>
+        <a href = "https://vald182.github.io/" >Back</a>
+        <div class ="box">
+            <form>
+                <p class = "text">
+                Enter the DNA chain
+                </p>
+                <p class = "text">
+                    <input type="text" id = 'inp' class = "text">
+                    <button type = "button" onclick="converter()" class = "but">Convert</button>
+                </p>
+                <div class ="headn">RNA chain</div>
+                <div class = "head">
+                    <label><span id = "result" class = "text"></span></label>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
